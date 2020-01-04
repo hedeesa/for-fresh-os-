@@ -16,3 +16,7 @@
       snap:
         name: code
         classic: yes
+
+    - name: install VLC
+      snap:
+        name: vlc
