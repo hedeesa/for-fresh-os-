@@ -2,6 +2,7 @@
   name: install pre
   hosts: 127.0.0.1
   connection: local
+  become: true
   tasks:
     - name: install pre app
       apt: 
@@ -20,3 +21,5 @@
     - name: install VLC
       snap:
         name: vlc
+
+        
